@@ -7,7 +7,6 @@ from ragas.metrics import (
 )
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-import visualize
 
 load_dotenv()
 

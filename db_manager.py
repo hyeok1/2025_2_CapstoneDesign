@@ -16,16 +16,16 @@ BASE_DB_DIR = os.path.join(SCRIPT_DIR, "VectorDB")
 
 # PDF 파일 목록
 PDF_FILEPATHS = [
-    os.path.join(SCRIPT_DIR, 'Database_RAG', 'PDF', 'EPS_Notion.pdf'),
-    os.path.join(SCRIPT_DIR, 'Database_RAG', 'PDF', 'KIIP_Notion_DB_Advanced.pdf'),
-    os.path.join(SCRIPT_DIR, 'Database_RAG', 'PDF', 'KIIP_Notion_DB.pdf')
+    os.path.join(SCRIPT_DIR, 'Datasets', 'Database_RAG', 'PDF', 'EPS_Notion.pdf'),
+    os.path.join(SCRIPT_DIR, 'Datasets', 'Database_RAG', 'PDF', 'KIIP_Notion_DB_Advanced.pdf'),
+    os.path.join(SCRIPT_DIR, 'Datasets', 'Database_RAG', 'PDF', 'KIIP_Notion_DB.pdf')
 ]
 
 # Markdown 파일 목록
 MARKDOWN_FILEPATHS = [
-    os.path.join(SCRIPT_DIR, 'Database_RAG', 'Markdown', 'EPS_Notion.md'),
-    os.path.join(SCRIPT_DIR, 'Database_RAG', 'Markdown', 'KIIP_Notion_DB_Advanced.md'),
-    os.path.join(SCRIPT_DIR, 'Database_RAG', 'Markdown', 'KIIP_Notion_DB.md')
+    os.path.join(SCRIPT_DIR, 'Datasets', 'Database_RAG', 'Markdown', 'EPS_Notion.md'),
+    os.path.join(SCRIPT_DIR, 'Datasets', 'Database_RAG', 'Markdown', 'KIIP_Notion_DB_Advanced.md'),
+    os.path.join(SCRIPT_DIR, 'Datasets', 'Database_RAG', 'Markdown', 'KIIP_Notion_DB.md')
 ]
 # ------------------------------------
 

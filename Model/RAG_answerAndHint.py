@@ -133,9 +133,9 @@ def main_rag2(fileType: str, embedding_size: int, chunk_size: int, chunk_overlap
     
     # [수정] 결과 파일명에 설정값 포함
     if fileType == 'PDF':
-        output_filename = os.path.join('Result', f'PDFRAG_answerAndHint_CS{chunk_size}_CO{chunk_overlap}_ES{embedding_size}.json')
+        output_filename = os.path.join('Result', 'RAG', 'PDF', f'PDFRAG_answerAndHint_CS{chunk_size}_CO{chunk_overlap}_ES{embedding_size}.json')
     elif fileType == 'Markdown':
-        output_filename = os.path.join('Result', f'MarkdownRAG_answerAndHint_CS{chunk_size}_CO{chunk_overlap}_ES{embedding_size}.json')
+        output_filename = os.path.join('Result', 'RAG', 'Markdown', f'MarkdownRAG_answerAndHint_CS{chunk_size}_CO{chunk_overlap}_ES{embedding_size}.json')
     else:
         print('사전에 정의하지 않은 파일명입니다.')
         return None
